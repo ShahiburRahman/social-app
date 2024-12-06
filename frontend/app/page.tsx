@@ -1,8 +1,11 @@
-
 export default function Home() {
     return (
         <div>
-            <p>Hello world</p>
+            <div className="flex justify-evenly">
+                <p> my na me</p>
+                <p>ABC</p>
+                <p>My plan</p>
+            </div>
         </div>
     );
 }
