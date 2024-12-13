@@ -6,10 +6,10 @@ export default function NavBar({ children }: { children: React.ReactNode }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const navLinks = [
-    { name: "Dashboard", href: "#" },
-    { name: "Projects", href: "#" },
-    { name: "Team", href: "#" },
-    { name: "Settings", href: "#" },
+    { name: "Dashboard", href: "/#" },
+    { name: "Projects", href: "/projects" },
+    { name: "Team", href: "/#" },
+    { name: "Settings", href: "/settings" },
   ];
 
   return (
